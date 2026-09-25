@@ -1,0 +1,15 @@
+{
+  "variantName": "cards-stats",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "theme": "light",
+    "hasImage": false,
+    "layout": "stacked-list",
+    "distinctive": "Oversized ranking-number heading (e.g. '#1') per item, followed by an intro line and a source citation."
+  },
+  "contentPattern": "Each row = 1 column: [ oversized heading, intro paragraph, source citation ].",
+  "usage": "Stacked list of statistic/ranking items emphasising a large leading number, with no images.",
+  "options": [],
+  "memberVariantIds": ["cards-stats"]
+}

@@ -1,0 +1,15 @@
+{
+  "variantName": "columns-sticky",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "theme": "light",
+    "hasImage": false,
+    "layout": "two-column",
+    "distinctive": "Oversized sticky heading in the left column beside multi-paragraph body copy in the right column."
+  },
+  "contentPattern": "Row 1 = 2 columns: [ sticky heading | body paragraphs ].",
+  "usage": "Narrative section pairing a persistent left-column heading with scrolling body copy (e.g. 'Why Cooley').",
+  "options": [],
+  "memberVariantIds": ["columns-sticky"]
+}

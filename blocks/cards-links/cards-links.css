@@ -1,0 +1,52 @@
+.cards-links > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* Compact serif text-link grid: one column on mobile, two on larger viewports.
+   Each item is a divider-separated link row with no image. */
+@media (width >= 600px) {
+  .cards-links > ul {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 48px;
+  }
+}
+
+.cards-links > ul > li {
+  border-top: 1px solid #d0d0d0;
+}
+
+.cards-links .cards-links-card-body {
+  margin: 0;
+  padding: 16px 0;
+}
+
+/* Serif title links (matches Cooley related-services list). */
+.cards-links .cards-links-card-body :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  font-family: var(--heading-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.cards-links .cards-links-card-body a:any-link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.cards-links .cards-links-card-body a:hover {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+.cards-links .cards-links-card-image {
+  line-height: 0;
+}
+
+.cards-links > ul > li img {
+  width: 100%;
+}

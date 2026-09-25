@@ -1,0 +1,23 @@
+:root {
+  /* Cooley brand tokens — extracted from cooley.com/services/practice/corporate */
+  --heading-font-family: "GT Sectra Book", garamond, "Times New Roman", serif;
+  --body-font-family: "Arial Nova", arial, helvetica, sans-serif;
+  --background-color: #fff;
+  --text-color: #33040e;
+  --link-color: #de0220;
+  --link-hover-color: #33040e;
+
+  /* Brand accents */
+  --cooley-maroon: #3a030e;
+  --cooley-maroon-text: #fff2f4;
+  --cooley-red: #fd1434;
+  --section-padding: 48px;
+  --content-max-width: 1200px;
+  --nav-height: 48px;
+  --heading-size-xxl: 44px;
+  --heading-size-xl: 68px;
+  --heading-size-l: 20px;
+  --heading-size-m: 20px;
+  --heading-size-s: 18px;
+  --heading-size-xs: 16px;
+}

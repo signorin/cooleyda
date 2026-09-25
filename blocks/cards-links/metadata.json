@@ -1,0 +1,15 @@
+{
+  "variantName": "cards-links",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "theme": "light",
+    "hasImage": false,
+    "layout": "two-column-grid",
+    "distinctive": "Compact two-column grid of divider-separated text link items, no images."
+  },
+  "contentPattern": "Each row = 1 column: [ title link ].",
+  "usage": "Dense list of related links (e.g. related services) laid out as a two-column text grid.",
+  "options": [],
+  "memberVariantIds": ["cards-links"]
+}

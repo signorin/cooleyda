@@ -1,0 +1,55 @@
+.columns-sticky > div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.columns-sticky img {
+  width: 100%;
+}
+
+.columns-sticky > div > .columns-sticky-img-col img {
+  display: block;
+}
+
+/* Oversized red serif heading (matches Cooley "Why Cooley" treatment). */
+.columns-sticky-heading :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  color: var(--cooley-red);
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 0.95;
+}
+
+.columns-sticky-body > :first-child {
+  margin-top: 0;
+}
+
+.columns-sticky-body p {
+  font-size: var(--body-font-size-s);
+  line-height: 1.5;
+}
+
+/* Two-column narrative: sticky heading beside body copy on larger viewports. */
+@media (width >= 900px) {
+  .columns-sticky > div {
+    flex-direction: unset;
+    align-items: flex-start;
+    gap: 64px;
+  }
+
+  .columns-sticky-heading {
+    flex: 0 0 30%;
+    align-self: flex-start;
+    position: sticky;
+    top: 24px;
+  }
+
+  .columns-sticky-heading :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 68px;
+  }
+
+  .columns-sticky-body {
+    flex: 1;
+  }
+}

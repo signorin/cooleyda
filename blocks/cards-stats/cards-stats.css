@@ -1,0 +1,47 @@
+.cards-stats > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.cards-stats > ul > li {
+  display: block;
+  border-top: 1px solid var(--cooley-red);
+  padding-top: 24px;
+}
+
+.cards-stats .cards-stats-card-body {
+  margin: 0;
+}
+
+/* Oversized red ranking number (matches Cooley "#1" stat treatment). */
+.cards-stats .cards-stats-card-body :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0 0 0.5rem;
+  color: var(--cooley-red);
+  font-size: 44px;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.cards-stats .cards-stats-card-body p {
+  margin: 0 0 0.5rem;
+  font-size: var(--body-font-size-s);
+  line-height: 1.4;
+}
+
+/* Source citation line — smaller, muted. */
+.cards-stats .cards-stats-card-body p:last-child {
+  font-size: 14px;
+  color: #666;
+}
+
+.cards-stats .cards-stats-card-image {
+  line-height: 0;
+}
+
+.cards-stats > ul > li img {
+  width: 100%;
+}

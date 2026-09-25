@@ -1,0 +1,6 @@
+/* The section-metadata block applies classes to its parent section, then
+   removes itself. It renders nothing, but hide it defensively before its JS
+   runs so the raw key/value rows never flash. */
+.section-metadata {
+  display: none;
+}
