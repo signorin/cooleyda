@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.cooley.com/services/practice/corporate",
+  "path": "services/practice/corporate",
+  "timestamp": "2026-09-28T16:03:44.582Z",
+  "title": "Corporate Lawyers // Cooley // Global Law Firm",
+  "template": "practice",
+  "blocks": [
+    "columns-sticky",
+    "cards-stats",
+    "cards-links"
+  ]
+}

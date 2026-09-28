@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "practice",
+      "urls": [
+        "https://www.cooley.com/services/practice/corporate"
+      ],
+      "representativeUrl": "https://www.cooley.com/services/practice/corporate",
+      "description": "Cooley practice-area detail page (Corporate).",
+      "urlPattern": "/services/practice/*",
+      "blocks": [
+        {
+          "name": "columns-sticky",
+          "instances": [".sticky-text-list .inner"]
+        },
+        {
+          "name": "cards-stats",
+          "instances": [".card-up .items"]
+        },
+        {
+          "name": "cards-links",
+          "instances": [".related-services .main"]
+        }
+      ],
+      "sections": [
+        {
+          "id": "hero",
+          "name": "hero",
+          "selector": [".hero.hero-secondary"],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [".hero.hero-secondary"]
+        },
+        {
+          "id": "secondary-nav",
+          "name": "secondary-nav",
+          "selector": [".secondary-nav"],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [".secondary-nav"]
+        },
+        {
+          "id": "intro-text-panel",
+          "name": "intro-text-panel",
+          "selector": [".intro-text-panel"],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [".intro-text-panel"]
+        },
+        {
+          "id": "sticky-text-list",
+          "name": "sticky-text-list",
+          "selector": [".sticky-text-list"],
+          "style": null,
+          "blocks": ["columns-sticky"],
+          "defaultContent": []
+        },
+        {
+          "id": "card-up",
+          "name": "card-up",
+          "selector": [".card-up"],
+          "style": null,
+          "blocks": ["cards-stats"],
+          "defaultContent": [".card-up .intro"]
+        },
+        {
+          "id": "related-services",
+          "name": "related-services",
+          "selector": [".related-services"],
+          "style": null,
+          "blocks": ["cards-links"],
+          "defaultContent": [".related-services .intro"]
+        },
+        {
+          "id": "disclaimer",
+          "name": "disclaimer",
+          "selector": [".rich-text.-disclaimer"],
+          "style": "grey",
+          "blocks": [],
+          "defaultContent": [".rich-text.-disclaimer"]
+        },
+        {
+          "id": "alerts-signup",
+          "name": "alerts-signup",
+          "selector": [".alerts-signup"],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [".alerts-signup"]
+        }
+      ]
+    }
+  ]
+}

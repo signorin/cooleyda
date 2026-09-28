@@ -1,0 +1,11 @@
+{
+  "type": "da",
+  "sites": {
+    "cooleyda": {
+      "previewOrg": "signorin",
+      "previewSite": "cooleyda",
+      "contentHostUrl": "https://content.da.live/signorin/cooleyda/",
+      "libraryUrl": "https://main--sta-boilerplate--aemdemos.aem.page/tools/sidekick/library.json"
+    }
+  }
+}
